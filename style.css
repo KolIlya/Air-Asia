@@ -48,19 +48,19 @@ p {
    height: 70px;
    margin: 0 auto;
    position: relative;
-   margin-bottom: 117px; 
+   margin-bottom: 126px; 
 }
 
 .logo {
     display: block;
     position: absolute;
-    top: 21px;
+    top: 28px;
     left: 0;
 }
 
 .nav {
     position: absolute;
-    top: 33px;
+    top: 40px;
     left: 164px;
 }
 
@@ -85,7 +85,7 @@ p {
 
 .contacts {
     position: absolute;
-    top: 22px;
+    top: 30px;
     right: 1px;
     font-style: normal;
     text-align: right;
@@ -186,7 +186,6 @@ p {
 
 .tours__cover-wrap {
     height: 144px;
-    margin-bottom: 33px;
 }
 
 .tours__image {
@@ -196,7 +195,7 @@ p {
 }
 
 .tours__content {
-    padding: 2px 22px;
+    padding: 32px 22px 22px 22px;
     color: #303030; 
 }
 
@@ -235,6 +234,7 @@ p {
 .tours__description {
     color: #303030;
     font-size: 14px;
+    line-height: 21px;
 }
 
 .tours__button {
@@ -295,27 +295,27 @@ p {
 }
 
 .news__date {
-    font-style: 14px;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 12px;
 }
 
 .news__card-title {
     font-size: 24px;
     font-weight: 700;
-    margin-top: 14px;
 }
 
 .news__text {
     font-size: 16px;
-    margin-top: 1px;
 }
 
 .news {
-    margin-bottom: 145px;
+    margin-bottom: 143px;
 }
 
 .paginator {
     text-align: center;
-    margin-left: 18px;
+    margin-left: 5px;
 }
 
 .paginator__display, .paginator__list {
@@ -325,11 +325,13 @@ p {
 
 .paginator__display {
     margin-right: 25px;
+    font-size: 16px;
 }
 
 .paginator__item {
     display: inline-block;
     vertical-align: middle;
+    margin-right: -2px;
 }
 
 .paginator__item--active .paginator__link {
@@ -371,9 +373,9 @@ p {
 
 .about__content {
     background: url("img/Mountains.jpg") center center / cover no-repeat;
-    padding: 69px 77px;
+    padding: 69px 77px 63px;
     width: 785px;
-    height: 455px;
+    min-height: 455px;
     margin-left: -139px;
     margin-top: 97px;
 }
@@ -420,7 +422,7 @@ p {
 .footer {
     height: 122px;
     position: relative;
-    margin-top: 26px;
+    margin-top: 17px;
 }
 
 .footer-container__content {
@@ -429,7 +431,7 @@ p {
 
 .social-media__list {
     position: absolute;
-    top: 24px;
+    top: 32px;
     right: 266px;
 }
 
