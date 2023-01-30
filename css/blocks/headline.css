@@ -1,0 +1,14 @@
+.headline {
+    min-height: 412px;
+    display: flex;
+    flex-direction: column;
+    background: url("../../img/Headline-elephant.jpg") center center / cover no-repeat;
+    padding-bottom: 22px;
+}
+
+.headline__container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}

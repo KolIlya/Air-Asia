@@ -1,0 +1,45 @@
+.social-media__list {
+    margin-right: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media__item {
+    margin-right: 10px;
+}
+
+.social-media__item:last-child {
+    margin-right: 0;
+}
+
+.social-media__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.social-media__item--tg .social-media__link {
+    background-image: url("../../img/tg.png");
+}
+
+.social-media__item--vk .social-media__link {
+    background-image: url("../../img/vk.png");
+}
+
+.social-media__item--fb .social-media__link {
+    background-image: url("../../img/fb.png");
+}
+
+.social-media__item--inst .social-media__link {
+    background-image: url("../../img/inst.png");
+}
+
+.social-media__item .social-media__link {
+    filter: brightness(70%);
+}
+
+.social-media__item .social-media__link:hover {
+    filter: brightness(200%);
+}
