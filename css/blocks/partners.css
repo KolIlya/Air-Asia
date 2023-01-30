@@ -7,7 +7,6 @@
 .partners__item {
     max-width: 300px;
     min-width: 270px;
-    flex-grow: 1;
 }
 
 .partners__item:nth-child(4n + 1) {
