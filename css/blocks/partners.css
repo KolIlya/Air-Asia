@@ -18,7 +18,7 @@
 }
 
 .partners__item:nth-child(4n + 4) {
-    margin-right: auto;
+    margin-left: auto;
 }
 
 .partners__item:nth-child(4n + 4) .partners__link {
