@@ -3,11 +3,7 @@
     flex: 1;
     flex-wrap: wrap;
     margin-bottom: 9px;
-    gap: 5px;
-}
-
-.controls__item {
-    margin-right: 7px;
+    gap: 8px;
 }
 
 .controls__element {
