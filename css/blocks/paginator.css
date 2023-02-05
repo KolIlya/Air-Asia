@@ -11,6 +11,12 @@
     margin-left: 41px;
 }
 
+.paginator--theme--dark--reviews {
+    font-size: 16px;
+    color: #000000;
+    margin-left: 13px;
+}
+
 .paginator--theme--dark .paginator__item--active .paginator__link {
     color: #fff;
     background: #F5170E;

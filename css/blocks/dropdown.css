@@ -1,0 +1,42 @@
+.contacts__dropdown {
+    position: relative;
+}
+
+.contacts__dropdown:hover .dropdown__menu {
+    right: 0;
+    opacity: 0.8;
+}
+
+.dropdown__menu {
+    position: absolute;
+    background: #ededed;
+    color: #1E1F20;
+    padding: 12px 19px;
+    text-align: left;
+    font-size: 13px;
+    border-radius: 5px;
+    top: 100%;
+    width: 160px;
+    margin-top: 9px;
+    line-height: 21px;
+    opacity: 0;
+}
+
+.dropdown__menu:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+    background: #EDEDED;
+    transform: rotate(45deg);
+}
+
+.dropdown__item-worktime {
+    font-weight: 700;
+}
+
+.dropdown__item-dinner {
+    font-weight: 600;
+}

@@ -13,3 +13,11 @@
     font-weight: 700;
     margin-bottom: 51px;
 }
+
+.inner-section--reviews {
+    padding: 61px 0 97px;
+}
+
+.inner-section__title--reviews {
+    margin-bottom: 59px;
+}
