@@ -23,7 +23,7 @@
 }
 
 .review__user::after {
-    content: url(img/vk-blue.png);
+    content: url(../../img/vk-blue.png);
     height: 30px;
     padding: 0px 0px 7px 9px;
 }
