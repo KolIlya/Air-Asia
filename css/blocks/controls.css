@@ -2,8 +2,12 @@
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    margin-bottom: 4px;
-    gap: 8px;
+    margin-bottom: 9px;
+    gap: 5px;
+}
+
+.controls__item {
+    margin-right: 7px;
 }
 
 .controls__element {

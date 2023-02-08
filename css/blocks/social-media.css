@@ -18,6 +18,7 @@
     width: 36px;
     height: 36px;
     position: relative;
+    transition: opacity 0.3s;
 }
 
 .social-media__link:after, .social-media__link::before {
@@ -46,6 +47,7 @@
 
 .social-media__link:hover:after {
     opacity: 1;
+    transition: 0.4s;
 }
 
 .social-media__item--tg .social-media__link::before {

@@ -14,8 +14,9 @@
 .nav__link {
     font-size: 14px;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
-.nav__link:hover {
+.nav__link:hover, .nav__link--active {
     color: #DA0100;
 }

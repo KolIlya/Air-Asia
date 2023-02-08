@@ -49,6 +49,7 @@
     color: #303030;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     flex: 1;
 }
 
@@ -88,24 +89,4 @@
     color: #303030;
     font-size: 14px;
     line-height: 21px;
-}
-
-.tours__button {
-    background: #fff;
-    border: 1px solid;
-    border-radius: 35px;
-    padding: 18px 30px;
-    color: #F5170E;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    width: 43%;
-    margin-top: auto;
-}
-
-.tours__button:hover {
-    background: #F5170E;
-    color: #fff;
 }

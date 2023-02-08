@@ -54,6 +54,7 @@
     text-decoration: none;
     font-weight: 700;
     line-height: 32px;
+    transition: background 0.3s, color 0.3s;
 }
 
 .paginator__link:hover {

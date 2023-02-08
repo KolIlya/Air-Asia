@@ -30,6 +30,7 @@
     color: #9A9A9A;
     text-decoration: underline;
     margin-right: 3px;
+    transition: color 0.3s;
 }
 
 .breadcrumbs__link:hover {

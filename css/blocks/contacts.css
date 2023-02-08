@@ -13,6 +13,7 @@
     font-size: 13px;
     text-decoration: underline;
     color: #98A4A8;
+    transition: color 0.3s;
 }
 
 .contacts__workhours:hover {
@@ -27,4 +28,5 @@
 
 .contacts__description:hover {
     color: #fff;
+    transition: 0.4s;
 }

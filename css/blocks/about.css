@@ -46,20 +46,3 @@
 .about__text p:last-child{
     margin-bottom: 0;
 }
-
-.about__button {
-    background: #F5170E;
-    border-radius: 35px;
-    padding: 18px 40px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-decoration: none;
-    display: flex;
-    width: 27%;
-}
-
-.about__button:hover {
-    background: #DA0100;
-}

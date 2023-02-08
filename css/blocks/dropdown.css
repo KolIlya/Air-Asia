@@ -5,6 +5,8 @@
 .contacts__dropdown:hover .dropdown__menu {
     right: 0;
     opacity: 0.8;
+    left: initial;
+    transition: 0.3s;
 }
 
 .dropdown__menu {
@@ -14,6 +16,7 @@
     padding: 12px 19px;
     text-align: left;
     font-size: 13px;
+    left: -9999px;
     border-radius: 5px;
     top: 100%;
     width: 160px;
@@ -31,6 +34,14 @@
     height: 20px;
     background: #EDEDED;
     transform: rotate(45deg);
+}
+.dropdown__menu::after {
+    content: '';
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    left: 0;
+    height: 40px;
 }
 
 .dropdown__item-worktime {
