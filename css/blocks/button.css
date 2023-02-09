@@ -24,7 +24,7 @@
     border: 1px solid;
     padding: 18px 30px;
     color: #F5170E;
-    transition: background 0.3s color 0.3s;
+    transition: background 0.3s, color 0.3s;
     margin-top: auto;
 }
 
